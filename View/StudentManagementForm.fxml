@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="588.0" prefWidth="876.0" style="-fx-background-color: FFC18E;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StudentManagementFormController">
+   <children>
+      <Label layoutX="263.0" layoutY="192.0" prefHeight="32.0" prefWidth="132.0" text="Student id">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtid" layoutX="426.0" layoutY="193.0" onAction="#txtidOnAction" />
+      <TextField fx:id="txtname" layoutX="426.0" layoutY="239.0" />
+      <TextField fx:id="txtemail" layoutX="426.0" layoutY="281.0" />
+      <TextField fx:id="txtcontact" layoutX="426.0" layoutY="324.0" />
+      <TextField fx:id="txtaddress" layoutX="426.0" layoutY="366.0" />
+      <TextField fx:id="txtnic" layoutX="426.0" layoutY="407.0" />
+      <Label layoutX="264.0" layoutY="239.0" prefHeight="32.0" prefWidth="149.0" text="Student Name">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="281.0" prefHeight="32.0" prefWidth="119.0" text="Email">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="324.0" prefHeight="32.0" prefWidth="119.0" text="Contatct ">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="366.0" prefHeight="32.0" prefWidth="119.0" text="Address">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="407.0" prefHeight="32.0" prefWidth="65.0" text="Nic">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="142.0" layoutY="31.0" prefHeight="21.0" prefWidth="572.0" text="Student Management Form" textFill="#132ff0">
+         <font>
+            <Font name="System Bold" size="39.0" />
+         </font>
+      </Label>
+      <Button layoutX="304.0" layoutY="496.0" mnemonicParsing="false" onAction="#submitOnAction" prefHeight="41.0" prefWidth="101.0" style="-fx-background-color: CEE5D0;" text="Submit">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="532.0" layoutY="496.0" mnemonicParsing="false" onAction="#UpdateOnAction" prefHeight="41.0" prefWidth="101.0" style="-fx-background-color: CEE5D0;" text="Update">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="761.0" layoutY="496.0" mnemonicParsing="false" onAction="#DeleteOnAction" prefHeight="41.0" prefWidth="101.0" style="-fx-background-color: CEE5D0;" text="Delete">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="644.0" layoutY="496.0" mnemonicParsing="false" onAction="#SearchOnAction" prefHeight="41.0" prefWidth="101.0" style="-fx-background-color: CEE5D0;" text="Search">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Button layoutX="413.0" layoutY="496.0" mnemonicParsing="false" onAction="#ClearOnAction" prefHeight="41.0" prefWidth="101.0" style="-fx-background-color: CEE5D0;" text="Clear">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
